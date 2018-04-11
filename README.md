@@ -1,9 +1,9 @@
 # EEG Project
 * Team Members and Forked Repos
-  * Shateesh Bhugwansing - shateeshb/seniorprojecteeg 
-  * Tarekul Islam - tarekul/seniorprojecteeg
-  * Junchen Lui 
-  * Emmanuil Simkhayev 
+  * Shateesh Bhugwansing - [shateeshb/seniorprojecteeg](https://github.com/shateeshb/seniorprojecteeg)  
+  * Tarekul Islam - [tarekul/seniorprojecteeg](https://github.com/tarekul/seniorprojecteeg)
+  * Junchen Lui - Coming soon
+  * Emmanuil Simkhayev - [edrias/seniorprojecteeg-master-fork](https://github.com/edrias/seniorprojecteeg-master-fork)
   
 ## Description
 This project will explore using machine learning with EEG data. 
