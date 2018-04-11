@@ -2,7 +2,7 @@
 * Team Members and Forked Repos
   * Shateesh Bhugwansing - [shateeshb/seniorprojecteeg](https://github.com/shateeshb/seniorprojecteeg)  
   * Tarekul Islam - [tarekul/seniorprojecteeg](https://github.com/tarekul/seniorprojecteeg)
-  * Junchen Lui - Coming soon
+  * Junchen Lui - [JunchenLiu123/seniorprojecteeg](https://github.com/JunchenLiu123/seniorprojecteeg)
   * Emmanuil Simkhayev - [edrias/seniorprojecteeg-master-fork](https://github.com/edrias/seniorprojecteeg-master-fork)
   
 ## Description
