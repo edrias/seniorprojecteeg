@@ -1,4 +1,4 @@
-**Smart Goal: I want to be able to make sense out of Dave’s data and codes
+#Smart Goal: I want to be able to make sense out of Dave’s data and codes
 
 **Specific: I will be running the python scripts provide by Dave to generate useful information of the data.
 
