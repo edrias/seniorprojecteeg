@@ -203,9 +203,20 @@ class RawANTCNT(BaseRaw):
         #basedir = op.dirname(input_fname)
         eeg= libeep.read_cnt(input_fname)
         
-        last_samps = [eeg.get_sample_count() - 1]
-        info = _get_info(eeg, montage, eog=eog)
+        n_chan = eeg.get_channel_count()
+        n_times = eeg.get_sample_count()
 
+        # my code/additions
+        intervals = [0] #append 0 as start value
+        # need to divide up data into smaller chunks to avoid memory error.
+        for i in range(9):
+            interval = get_interval(n_times, i)
+            intervals.append(interval)
+        intervals.append(n_times) # sample size is end of final chunk of data
+        print intervals
+        last_samps = [(intervals[2] - intervals[1]) - 1]
+        info = _get_info(eeg, montage, eog=eog)
+        
         stim_chan = dict(ch_name='STI 014', coil_type=FIFF.FIFFV_COIL_NONE,
                          kind=FIFF.FIFFV_STIM_CH, logno=len(info["chs"]) + 1,
                          scanno=len(info["chs"]) + 1, cal=1., range=1.,
@@ -216,7 +227,7 @@ class RawANTCNT(BaseRaw):
 
         events = _read_antcnt_events(eeg, event_id=event_id,
                                      event_id_func=event_id_func)
-        self._create_event_ch(events, n_samples=eeg.get_sample_count())
+        self._create_event_ch(events, n_samples=(intervals[2] - intervals[1]))
 
         # read the data
     
@@ -224,15 +235,12 @@ class RawANTCNT(BaseRaw):
             warn('Data will be preloaded. preload=False or a string '
                  'preload is not supported when the data is stored in '
                  'the .cnt file')
-        # don't know how to implement preload = F
+        # don'st know how to implement preload = F
         
-        n_chan = eeg.get_channel_count()
-        n_times = eeg.get_sample_count()
-        
-        data = np.empty((n_chan+1, n_times), dtype=np.double)
+        data = np.empty((n_chan+1, (intervals[2] - intervals[1])), dtype=np.double)
         from numpy import asarray
-        x = asarray(eeg.get_samples(0,n_times))
-        x.shape  = (n_times,n_chan) 
+        x = asarray(eeg.get_samples(intervals[1],intervals[2]))
+        x.shape  = (intervals[2] - intervals[1],n_chan) 
         print(x.shape)
         data[:-1] = x.transpose()
         
@@ -259,7 +267,10 @@ class RawANTCNT(BaseRaw):
         _read_segments_file(self, data, idx, fi, start, stop, cals, mult,
                             dtype=np.float32, trigger_ch=self._event_ch,
                             n_channels=self.info['nchan'] - 1)
-
+        
+    # needed to get a sample size interval 
+def get_interval(sample_size, interval, divide_by = 10):
+    return (sample_size/divide_by) + (interval * (sample_size/divide_by))
 
 def _read_antcnt_events(eeg, event_id=None, event_id_func='strip_to_integer'):
         """Create events array from ANT cnt structure
@@ -324,4 +335,3 @@ def _read_antcnt_events(eeg, event_id=None, event_id_func='strip_to_integer'):
 def _strip_to_integer(trigger):
     """Return only the integer part of a string."""
     return int("".join([x for x in trigger if x.isdigit()]))
-
