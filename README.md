@@ -8,8 +8,6 @@
 ## Description
 This project will explore using machine learning with EEG data. 
 
-A preliminary idea we have is exploring the issue with lack of EEG data in research. What if we could
-generate EEG data by inputing a new image into a machine learning model that was trained on previous EEG data. 
-We will use Tim Elmore's research on how humans process and remember visual information from images.
+Our goal as data scientists is to help discover characteristics of EEG that help identify where in the brain semantically congruent stimuli are recognized. We want learn where and how semantic content is stored in the brain. Thus, we aim to discover the parts of the brain that work together and investigate the signal outputs of the brain given, semantic congruent stimuli(distractor/target). 
 
  
