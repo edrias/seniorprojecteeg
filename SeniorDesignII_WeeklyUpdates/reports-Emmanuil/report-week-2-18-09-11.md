@@ -5,11 +5,7 @@
 
 ## Stretch Goals (1-3)
 
-1. classify modalities (audio vs visual) 
-
-2. 1
-
-3. 
+1. classify modalities (audio vs visual) and get a score of 60 - 70% accuracy.  
 
 ## S.M.A.R.T. Goals (next week)
 
