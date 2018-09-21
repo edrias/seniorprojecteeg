@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints/
+clean_data_sample/
+raw_data_sample/
+shateesh-workspace/.ipynb_checkpoints/
+vcrt_experimental_design.csv
