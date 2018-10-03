@@ -13,10 +13,10 @@
 ### S.M.A.R.T. Goal 1.
 
 #### S. Specific: 
-Continue the classification experiment from last week using a KNN classifier. Combine data from one test subject into general flanker vs. target stimuli and try to classify. 
+Continue the classification experiment from last week using a logistic regression classifier. Combine data from one test subject into general flanker vs. target stimuli and try to classify. 
 
 #### M. Measurable: 
-I can measure the success of the KNN classifier by using the built-in sklearn .score function and a confusion matrix. 
+I can measure the success of the logistic regression classifier by using the built-in sklearn .score function and a confusion matrix. 
 
 #### A. Achievable: 
 Yes, the skills required have been taught in semester 1 of senior design. 
