@@ -62,7 +62,7 @@ This will help our team decide on which classifier to use in the future.
 
 
 #### T. Time-bound: 
-next week, 10/03/18
+I aim for next week, 10/03/18. BUT this depends on how far I get with goals #1 and #2
 
 
 ## S.M.A.R.T. Goals (last week)
