@@ -61,10 +61,10 @@
  * We can measure progress by playing around wiht the hyper parameter of my knn pipeline and check the scores
  #### A. Achievable: 
  (Do you have the skills required to achieve the goal? If not, can you obtain them? What is the motivation for this goal? Is the amount of effort required on par with what the goal will achieve?)
- * This can be achieve because we can use python to decompose the events and put 9 of them together as one trials.
+ * This can be achieve because we can use python to import schilearn library and use knn from there
 
  #### R. Relevant :
  (Why am I setting this goal now? Is it aligned with overall objectives like stretch goals?)
- * it aligned with overall objectives because we want to classfy between congruent and incongruent, and those trials are either congruent or incongruent.
+ * it aligned with overall objectives because we want to classfy between congrugent vs. incongruent and try to get a better scores possible
  (What’s the deadline and is it realistic?)
- * by 3rd. 
+ * by 10. 
