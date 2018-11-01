@@ -6,6 +6,7 @@
 ## Stretch Goals (1-3)
 
 1. Pivot my individual role, start exploring visualization options.  
+2. Generalize the classification experiments to include more than 1 subject's data. 
 
 ## S.M.A.R.T. Goals (next week)
 
