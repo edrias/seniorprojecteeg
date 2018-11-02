@@ -1,7 +1,7 @@
 # Smart and Stretch Goals
 
 **Name:** Shateesh Bhugwansing
-**Date:** 10/03/18
+**Date:** 10/10/18
 
 ## Stretch Goals (1-3)
 
