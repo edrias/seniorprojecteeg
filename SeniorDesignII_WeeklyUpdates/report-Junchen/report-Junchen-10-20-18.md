@@ -1,7 +1,7 @@
 # Smart and Stretch Goals
 
 **Name:** Junchen Liu
-**Date:** 10/10/18
+**Date:** 10/20/18
 
 ## Stretch Goals (1-3)
 
