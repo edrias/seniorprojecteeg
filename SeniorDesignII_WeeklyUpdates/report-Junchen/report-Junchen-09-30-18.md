@@ -3,7 +3,10 @@
  **Name:** Junchen Liu
  **Date:** 10/30/2018
 
+## Stretch Goals (1-3)
 
+1. Be able to contact Dave and come up a list of questions to Dave
+2. Be able to divided our data into trials.
 
  ## S.M.A.R.T. Goals (next week)
 
@@ -53,7 +56,7 @@
  (What’s the deadline and is it realistic?)
  * by 3rd. 
  
-  ### S.M.A.R.T. Goal 2.
+  ### S.M.A.R.T. Goal 3.
 
  #### S. Specific: 
  (What do you want to accomplish? Who needs to be included? When do you want to do this? Why is this a goal?)
