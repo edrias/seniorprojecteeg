@@ -3,7 +3,9 @@
  **Name:** Junchen Liu
  **Date:** 10/05/2018
 
+## Stretch Goals (1-3)
 
+1. Change the eventid of each trial as either 4 or 5 so that we can have a two-class-problem and classify it.
 
  ## S.M.A.R.T. Goals (next week)
 
