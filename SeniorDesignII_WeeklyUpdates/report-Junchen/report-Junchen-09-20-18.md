@@ -3,7 +3,9 @@
  **Name:** Junchen Liu
  **Date:** 9/21/2018
 
+## Stretch Goals (1-3)
 
+1. Use PCA component=28 to reduce our data and find more useful information.
 
  ## S.M.A.R.T. Goals (next week)
 
