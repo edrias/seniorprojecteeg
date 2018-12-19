@@ -66,3 +66,4 @@ Next week, 11/28/18
   
 
 ## S.M.A.R.T. Goals (last week)
+The method I used to visualize the highest average coefficients according to their electrode position works. I chose to use the top 20 coefficients because of the PCA analysis that Tarekul did, which showed that the most variance is contained in 20 components. I need to get this work verified by Dave, though -- I'm not sure if it's useful to him in this form. 
