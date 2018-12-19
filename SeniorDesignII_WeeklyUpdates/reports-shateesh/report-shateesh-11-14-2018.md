@@ -67,3 +67,4 @@ Next week, 11/21/18
   
 
 ## S.M.A.R.T. Goals (last week)
+The montage file took a long time to handle, but it wasn't entirely my fault. My mac kept changing the file type to a text tile, which MNE processed differently than an .elc file. Emmanuil and I had to use his Windows laptop to edit the files in the default editor to work. We also had to do some manual editing of the file to get rid of any comments and unnecessary columns. But after we did that, the read_montage() method in MNE worked smoothly. We were able to generate the coefficients for logistic regression, and then had to reshape the coefficient matrix to match the rows x channels feature space that we inputted into the classifier in the beginning of the pipeline. 
