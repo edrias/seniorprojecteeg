@@ -12,4 +12,7 @@ Our goal as data scientists is to help discover characteristics of EEG that help
 
  
  ## Deliverables
-Deliverables for each team member can be found here: https://github.com/edrias/seniorprojecteeg/tree/master/SeniorDesignII_WeeklyUpdates
+Deliverables for each team member can be found here: https://github.com/edrias/seniorprojecteeg/tree/master/SeniorDesignII_WeeklyUpdates  
+  
+The final presentation slides can be found here: 
+https://docs.google.com/presentation/d/165lQ7J_GXI0EB2awjn87S2F8iiJhBtGyLjD5UHTwZVo/edit?usp=sharing
