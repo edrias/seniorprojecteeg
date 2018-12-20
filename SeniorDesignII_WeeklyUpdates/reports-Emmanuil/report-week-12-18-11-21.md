@@ -5,7 +5,7 @@
 
 ## Stretch Goals (1-3)
 
-[INSERT STRETCH GOALS HERE]
+* Take on the lexical vs non-lexical classification problem
 
 ## S.M.A.R.T. Goals (next week)
 
