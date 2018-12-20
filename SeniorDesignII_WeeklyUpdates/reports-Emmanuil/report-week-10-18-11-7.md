@@ -56,8 +56,6 @@ Classification is simple as we have already set up the pipeline for that.
 
 #### R. Relevant :
 (Why am I setting this goal now? Is it aligned with overall objectives like stretch goals?)
-This is relevant because when we worked with Dr. Elmores data, the MNE objects had events assocated with them aand it made classifying
-and converting to pandas extremely simple. 
 * We are trying to identify which parts of the brain are most useful in classification for the Audio vs Visual problem. 
 
 #### T. Time-bound: 
