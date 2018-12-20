@@ -11,3 +11,5 @@ This project will explore using machine learning with EEG data.
 Our goal as data scientists is to help discover characteristics of EEG that help identify where in the brain semantically congruent stimuli are recognized. We want learn where and how semantic content is stored in the brain. Thus, we aim to discover the parts of the brain that work together and investigate the signal outputs of the brain given, semantic congruent stimuli(distractor/target). 
 
  
+ ## Deliverables
+Deliverables for each team member can be found here: https://github.com/edrias/seniorprojecteeg/tree/master/SeniorDesignII_WeeklyUpdates
