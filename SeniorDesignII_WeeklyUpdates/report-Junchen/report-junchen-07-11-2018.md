@@ -46,7 +46,7 @@ This goal is relevant because we have to see which channels will give us the hig
 I aim to get this done by 11/14/2018. 
 
 
-### S.M.A.R.T. Goal 2.
+### S.M.A.R.T. Goal 3.
 
 #### S. Specific: 
 Looping through the data and find the variance across each 500 points for each channels.
